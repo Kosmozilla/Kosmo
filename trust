@@ -1,0 +1,6 @@
+echo "Hello, World!" > hello_world.txt
+git init
+git add hello_world.txt
+git commit -m "Add hello world file"
+git remote add origin <URL вашого репозиторію на Github>
+git push -u origin master
